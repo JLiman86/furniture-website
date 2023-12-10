@@ -8,7 +8,7 @@ export default {
     container: {
       padding: {
         DEFAULT: "1.5rem",
-        lg: '3rem',
+        lg: "3rem",
       },
     },
     screens: {
@@ -16,7 +16,7 @@ export default {
       md: "768px",
       lg: "1024px",
       xl: "1280px",
-      xxl:"1440px"
+      xxl: "1440px",
     },
     extend: {
       colors: {
@@ -28,8 +28,6 @@ export default {
           2: "#E7E9EB",
           3: "#F5F5F5",
         },
-        white: "#fff",
-        pink: "pink",
       },
       backgroundImage: {
         hero: 'url("/src/assets/img/hero-bg.png")',

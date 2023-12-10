@@ -1,0 +1,17 @@
+import { hero } from "../data";
+
+const Hero = () => {
+  const { title, subtitle, buttonText } = hero;
+
+  return (
+    <section className="flex items-center justify-center bg-hero h-[800px] bg-no-repeat bg-right lg:bg-center bg-cover">
+      <div className="max-w-[900px] text-white text-center px-5">
+        <h1 className="font-semibold md:text-6xl text-4xl  md:leading-[70px]">{title}</h1>
+        <h2 className="max-w-[500px] mx-auto  mt-7 mb-12 lg:text-lg text-base">{subtitle}</h2>
+        <button className="bg-white/40 px-6 py-2 hover:bg-white/50 rounded-lg">{buttonText}</button>
+      </div>
+    </section>
+  );
+};
+
+export default Hero;
