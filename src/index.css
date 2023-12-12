@@ -6,4 +6,8 @@
   body {
     @apply bg-grey-3 font-primary text-white;
   }
+
+  a {
+    @apply inline-block
+  }
 }
