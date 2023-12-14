@@ -26,13 +26,13 @@ const Header = () => {
         <nav className="flex justify-between py-4">
           <img className="h-[30px]" src={Logo} alt="" />
 
-          <ul className="md:flex justify-center items-center gap-5 hidden ">
+          <ul className="md:flex justify-center items-center gap-5 hidden">
             {navigation.map((item, idx) => {
               return (
                 <li key={idx}>
                   <Link
                     to={item.href}
-                    className="capitalize cursor-pointer border-b-2 border-transparent hover:border-b-white py-1 px-4"
+                    className="capitalize cursor-pointer border-b-2 border-transparent hover:border-b-white py-1 px-3"
                   >
                     {item.name}
                   </Link>
