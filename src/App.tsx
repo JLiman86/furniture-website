@@ -1,4 +1,5 @@
 import Features from "./components/Features";
+import FeaturesSecond from "./components/FeaturesSecond";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import NewItems from "./components/NewItems";
@@ -10,6 +11,7 @@ function App() {
       <Hero />
       <Features />
       <NewItems/>
+      <FeaturesSecond/>
     </div>
   );
 }

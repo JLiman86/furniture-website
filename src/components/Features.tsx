@@ -4,7 +4,7 @@ const Features = () => {
   const { image, title, subtitle, items } = features;
   return (
     <section>
-      <div className="container mx-auto text-primary pt-40 pb-10 md:pb-20">
+      <div className="container mx-auto text-primary pt-40 py-10 ">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
           <div className="order-1 lg:-order-1">
             <img className="w-full" src={image.type} alt="" />
@@ -12,7 +12,7 @@ const Features = () => {
           <div className="">
             <h2 className="text-4xl font-semibold mt-5">{title}</h2>
             <p className="mt-6 mb-10">{subtitle}</p>
-            <div className="">
+            <div>
               {items.map((item, idx) => {
                 const { icon, title, subtitle } = item;
                 return (

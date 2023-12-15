@@ -6,19 +6,21 @@ import { newInStore } from "../data";
 
 const StoreSlider = () => {
   return (
-    <Swiper
+    <Swiper 
       grabCursor={true}
       breakpoints={{
-        320: { slidesPerView: 2, spaceBetween: 18 },
-        640: { slidesPerView: 3, spaceBetween: 18 },
+        320: { slidesPerView: 2, spaceBetween: 10 },
+        640: { slidesPerView: 3, spaceBetween: 10 },
       }}
     >
-      {newInStore.products.map((product) => {
+      {newInStore.products.map((product,idx) => {
         return (
-          <SwiperSlide className="">
+          <SwiperSlide key={idx}>
             <div className="relative">
               <img className="w-full" src={product.image.type} alt="" />
-              <p className="text-white absolute left-0 bottom-3 w-full text-center capitalize">{product.name}</p>
+              <p className="text-white absolute left-0 bottom-3 w-full text-center capitalize">
+                {product.name}
+              </p>
             </div>
           </SwiperSlide>
         );
