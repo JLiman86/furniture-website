@@ -50,7 +50,7 @@ const Header = () => {
         </nav>
       </div>
 
-     <SideBar isOpen = {isOpen}/> 
+      <SideBar isOpen={isOpen} />
     </header>
   );
 };
