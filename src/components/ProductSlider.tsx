@@ -22,7 +22,7 @@ const ProductSlider = () => {
       {pages.map((page, idx) => {
         return (
           <SwiperSlide key={idx}>
-            <div className="grid grid-cols-2 gap-x-5 md:grid-cols-3 lg:grid-cols-4 lg:gap-[30px]">
+            <div className="grid grid-cols-2 gap-5 md:grid-cols-3 lg:grid-cols-4 lg:gap-[30px]">
               {page.productList.map((product, idx) => {
                 const { image, name, price, oldPrice } = product;
                 return (

@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import NewItems from "./components/NewItems";
 import Products from "./components/Products";
+import Testimonial from "./components/Testimonial";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <NewItems/>
       <FeaturesSecond/>
       <Products/>
+      <Testimonial />
     </div>
   );
 }
