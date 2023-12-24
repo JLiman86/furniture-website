@@ -3,7 +3,7 @@ import { features } from "../data";
 const Features = () => {
   const { image, title, subtitle, items } = features;
   return (
-    <section>
+    <section id="about">
       <div className="container mx-auto text-primary pt-40 py-10 ">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
           <div className="order-1 lg:-order-1">

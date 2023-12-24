@@ -5,7 +5,7 @@ const Products = () => {
   const { title, subtitle } = products;
 
   return (
-    <section className="text-primary">
+    <section id="features" className="text-primary">
       <div className="container mx-auto py-10">
         <div>
           <h2 className="text-3xl font-semibold text-center">{title}</h2>

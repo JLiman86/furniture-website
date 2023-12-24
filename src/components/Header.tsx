@@ -31,6 +31,10 @@ const Header = () => {
               return (
                 <li key={idx}>
                   <Link
+                    smooth={true}
+                    duration={500}
+                    spy={true}
+                    offset={-66}
                     to={item.href}
                     className="capitalize cursor-pointer border-b-2 border-transparent hover:border-b-white py-1 px-3"
                   >

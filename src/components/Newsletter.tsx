@@ -2,8 +2,8 @@ import { newsletter } from "../data";
 const Newsletter = () => {
   const { title, subtitle, placeholder, buttonText } = newsletter;
   return (
-    <section className="bg-newsletter min-h-[500px]">
-      <div className="container mx-auto py-10 text-primary flex justify-center lg:justify-end">
+    <section className="bg-newsletter bg-no-repeat bg-cover py-10  min-h-[500px]">
+      <div className="container mx-auto text-primary flex justify-center lg:justify-end">
         <div className="w-full max-w-[558px] text-center text-white lg:text-left">
           <h2 className="text-4xl font-semibold max-w-[350px] mx-auto lg:mx-0 mb-5 leading-normal">
             {title}

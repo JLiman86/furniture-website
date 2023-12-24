@@ -1,5 +1,6 @@
 import Features from "./components/Features";
 import FeaturesSecond from "./components/FeaturesSecond";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import NewItems from "./components/NewItems";
@@ -18,6 +19,7 @@ function App() {
       <Products />
       <Testimonial />
       <Newsletter />
+      <Footer />
     </div>
   );
 }
