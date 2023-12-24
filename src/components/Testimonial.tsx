@@ -11,7 +11,7 @@ const Testimonial = () => {
             <h2 className="text-2xl font-semibold mb-10">{title}</h2>
             <TestimonialSlider />
           </div>
-          <div className="order-1">
+          <div>
             <img className="w-full" src={image.type} alt="" />
           </div>
         </div>
